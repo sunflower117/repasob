@@ -1,10 +1,9 @@
 import express from 'express';
 import message from './config/message.js';
+import enviroment from './config/enviroment';
 
 const app = express();
 
-app.listen(3000,()=>{
-    // console.log('Hola mundo');
-    // document.write('Listado en el puerto 3000');
-    message('Hola mundo', 'warning');
-})
+app.set("PORT", process.env.PORT || 3000);
+
+export default app;
