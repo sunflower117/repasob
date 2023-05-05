@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deposada74/repaso.git"
+    "url": "git+https://github.com/sunflower117/repasob.git"
   },
-  "author": "ARCAN",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/deposada74/repaso/issues"
+    "url": "https://github.com/sunflower117/repasob/issues"
   },
-  "homepage": "https://github.com/deposada74/repaso#readme",
+  "homepage": "",
   "dependencies": {
     "colors": "^1.4.0",
     "cors": "^2.8.5",
